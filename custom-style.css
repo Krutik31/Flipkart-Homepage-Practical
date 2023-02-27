@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+
+nav{
+    height: 55px;
+    background-color: #2874f0;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.bar{
+    margin: 0 10px 0 10px;
+}
+.logo img{
+    width: 75px;
+    margin-bottom: -3px;
+}
+.exp{
+    display: flex;
+    font-size: 11px;
+    margin-top: -1.5px;
+    height: auto;
+}
+#plus{
+    color: yellow;
+    padding: 0 2px 0 3px;
+}
+.exp p img{
+    width: 10px;
+    padding-bottom: 4px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    /* border: 1px solid black; */
+    /* border-radius: 5px; */
+    margin-left: 0px;
+}
+.search input{
+    width: 430px;
+    height: 30px;
+    padding-left: 10px;
+}
+/* .search img{
+    width: 17px;
+    height: 17px;
+    margin: 7px;
+} */
+
+ul li{
+    list-style: none;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: 550;
+    text-decoration: none;
+    color: white;
+    padding: 0 25px;
+}
+.login ul li a{
+    padding: 6px 35px;
+    background-color: white;
+    color: rgb(9, 107, 253);
+    border: 1px solid white;
+    /* border-radius: 2px; */
+}
+.login{
+    margin-left: 50px;
+    height: auto;
+}
+
+.cart img{
+    width: 30px;
+}
+.cart{
+    margin-right: -15px;
+    display: flex;
+}
+
+.container{
+    height: calc(100vh-55px);
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin: 65px 0 0 0;
+    padding: 0 30px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.card a img{
+    width: 70px;
+}
+
+.sections{
+    display: flex;
+    justify-content: center;
+    background-color: #f1f3f6;
+    height: 420px;
+}
+
+.bannerImg{
+    height: 400px;
+    padding: 10px;
+}
+
+.product {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.product .heading{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide{
+    padding: 10px 30px;
+}
+.slider .slide img{
+    width: 100%;
+    height: 270px;
+}
+
+hr{
+    opacity: 0.3;
+}
+
+.sell{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    max-width: 1320px;
+    overflow-x: auto;
+}
+.sell::-webkit-scrollbar {
+    display: none;
+}
+
+.timertext{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.deals-sell{
+    max-width: 1100px;
+}
+.viewall{
+    background-color: rgb(9, 107, 253);
+    color: white;
+    float: right;
+    padding: 1px 20px;
+    font-size: 10px;
+    text-decoration: none;
+    /* border-radius: 2px; */
+}
+.viewall:hover{
+    background-color: rgb(10, 94, 218);
+}
+.element{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:14px;
+    padding: 20px;
+}
+.element .pic{
+    width: 150px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.element .pic img{
+    width: 125px;
+    max-height: 175px;
+    padding: 10px 0;
+}
+.element .name{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.element .offer{
+    color: #388e3c;
+    padding: 10px 0;
+}
+.element .from{
+    opacity: 0.5;
+}
+.from{
+    font-size: 10px;
+}
+#id5{
+    color: white;
+}
